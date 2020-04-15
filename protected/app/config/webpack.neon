@@ -1,0 +1,10 @@
+extensions:
+    webpack: Oops\WebpackNetteAdapter\DI\WebpackExtension(%debugMode%)
+
+webpack:
+    build:
+        directory: %wwwDir%/dist
+        publicPath: dist/
+
+    devServer:
+        url: http://localhost:3060
